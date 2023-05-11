@@ -30,7 +30,13 @@ function calculateScore() {
   let q5 = inputEl5.value.toLowerCase();
 
   //Process
-  if (q1 === "stephen curry" || q1 === "steph curry") {
+  if (
+    q1 === "stephen curry" ||
+    q1 === "steph curry" ||
+    q1 === "stephen" ||
+    q1 === "steph" ||
+    q1 === "curry"
+  ) {
     score++;
     outputEl1.innerHTML = "Correct!";
     inputEl1.style.borderColor = "green";
