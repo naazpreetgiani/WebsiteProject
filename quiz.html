@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <h3 class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="quiz.html">Quiz</a>
+    </h3>
+
+    <!-- PAGE TITLE & CONTENT -->
+    <h1 class="title2">Basketball Quiz</h1>
+
+    <h2>Question 1</h2>
+    <p>
+      Who said "Basketball isn't just a sport. It is an art, one that must be
+      mastered to succeed."?
+    </p>
+    <p>*First and last name*</p>
+    <p>Answer: <input id="q1-in" type="text" /></p>
+    <p id="q1-out" class="q1-out"></p>
+    <hr />
+
+    <h2>Question 2</h2>
+    <p>Who invented basketball?</p>
+    <p>*Last name only*</p>
+    <p>Answer: <input id="q2-in" type="text" /></p>
+    <p id="q2-out"></p>
+    <hr />
+
+    <h2>Question 3</h2>
+    <p>What was not a part of the original basketball game?</p>
+    <p>*Word ending in "ing"*</p>
+    <p>Answer: <input id="q3-in" type="text" /></p>
+    <p id="q3-out"></p>
+    <hr />
+
+    <h2>Question 4</h2>
+    <p>Taking more than two steps without dribbling is called a...</p>
+    <p>Answer: <input id="q4-in" type="text" /></p>
+    <p id="q4-out"></p>
+    <hr />
+
+    <h2>Question 5</h2>
+    <p>
+      When a hand is placed on the ______ of a ball within a dribble it is
+      called a carry.
+    </p>
+    <p>Answer: <input id="q5-in" type="text" /></p>
+    <p id="q5-out"></p>
+    <hr />
+
+    <p><button id="btn">Check</button></p>
+
+    <div>
+      Your Score: <span id="outOfScore">----</span>/5 (<span id="percentScore"
+        >----</span
+      >%)
+    </div>
+    <span id="output">Check Your Quiz Score!</span>
+  </body>
+</html>

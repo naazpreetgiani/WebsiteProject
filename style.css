@@ -1,0 +1,105 @@
+html {
+  background-color: gray;
+  background: url("court.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 25px 75px;
+  border-radius: 7px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#img {
+  text-align: center;
+}
+
+.nav a {
+  margin: 0px 25px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+}
+
+.nav {
+  border-radius: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+#index {
+  background-color: transparent;
+}
+
+h1 {
+  color: orange;
+  border-radius: 10px;
+}
+
+.title a {
+  color: orange;
+  background-color: rgba(155, 185, 206, 0.7);
+  border: thick;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  text-decoration: underline 1.5px solid black;
+}
+
+.title a:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+#quote {
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.name {
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.name a {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title2 {
+  background-color: rgb(94, 87, 91);
+}
+
+h2 {
+  text-align: left;
+  font-family: roboto;
+}
+
+#about {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: blue;
+}
+
+p {
+  text-align: left;
+}
